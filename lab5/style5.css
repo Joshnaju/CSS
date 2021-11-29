@@ -1,0 +1,95 @@
+body
+{ 
+width: 100%;
+height: 100vh;
+margin: 0;
+padding: 0;
+font-family: system-ui;
+background: none;
+}
+.fleft {
+float:left; 
+width: 60%;
+background-color:black;
+height: 100vh;
+overflow-y: auto;
+}
+.fleft::-webkit-scrollbar {
+display: none;
+}
+.fright {
+float: right;
+background-color:#02a858;
+height: 100vh;
+width: 40%;
+overflow-y: auto;
+}
+.fright::-webkit-scrollbar {
+display: none;
+}
+.leftdiv
+{
+margin: 50px 50px 0 50px;
+}
+.bleft
+{
+height: 40px;
+width: 200px;
+color: white;
+background-color:#02a858;
+border:0 ;
+border-radius: 3px;
+font-weight: bolder;
+}
+select {
+border: none;
+outline: none;
+scroll-behavior: smooth;
+background-color: black;
+color: #575654; 
+}
+#drop
+{
+margin: 150px 50px 10px 50px;
+color: #575654; 
+}
+a
+{
+text-decoration: none; 
+color: #575654; 
+}
+.rightdiv
+{
+margin: 200px 50px 0 50px;
+color: #96c8a2;
+}
+input
+{
+background-color:#02a858;
+border:none;
+outline: none;
+height: 40px;
+width: 100%;
+border-bottom:1px solid #96c8a2;
+}
+::placeholder
+{
+color: #96c8a2;
+}
+.bright
+{
+margin-top: 30px;
+color: #02a858;
+width: 75px;
+height: 28px;
+font-weight: bolder;
+border:0 ;
+border-radius: 3px;
+}
+.link
+{
+display: inline;
+text-decoration: none;
+color: #96c8a2;
+margin-left:10px;
+}

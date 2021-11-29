@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Table</title>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link rel="stylesheet" type="text/css" href="style.css">
+      <!-- Table using CSS -->
+   </head>
+   <body>
+      <div>
+         <form action="" method="post">
+            <label style="padding-right: 5px;" for="show">Show </label>
+            <div class="underline"  style="display: inline; padding-bottom: 10px;">
+               <select id="show" name="show">
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5" selected>5</option>
+               </select>
+               <i style="font-size:15px; "  class="fa fa-caret-down"></i>
+            </div>
+            <span style="padding-left: 10px;">entries</span>
+            <h2 style=" font-weight: lighter;
+               display: inline;
+               padding-left: 350px;">Customer<b> Details</b></h2>
+            <div class="find">
+               <i style="width:2%;font-size:17px;line-height:40px; color:#A9A9A9;" class="fa fa-search"></i>
+               <input type=search placeholder="Search..."> 
+            </div>
+         </form>
+      </div>
+      <br>
+      <table border="1px">
+         <tr>
+            <th>#</th>
+            <th>Name<i style="padding-left: 10px;font-size: 15px;" class="fa fa-sort"></i></th>
+            <th>Address</th>
+            <th>City<i style="padding-left: 10px;font-size: 15px;" class="fa fa-sort"></i></th>
+            <th>Pincode</th>
+            <th>Country<i style="padding-left: 10px;font-size: 15px;" class="fa fa-sort"></i></th>
+            <th>Actions</th>
+         </tr>
+         <tr>
+            <td>1</td>
+            <td>Thomas Hardy </td>
+            <td>89 Chlaroscuro Rd</td>
+            <td>Portland</td>
+            <td>97219</td>
+            <td>USA</td>
+            <td>  
+               <i style="color: #00BFFF" class=" fa fa-eye"></i>  
+               <i style="color: #f2b400" class="fa fa-pencil"></i>
+               <i style="color: red" class="fa fa-trash"></i> 
+            </td>
+         </tr>
+         <tr>
+            <td>2</td>
+            <td>Maria Anders </td>
+            <td>Obere Str.57</td>
+            <td>Berlin</td>
+            <td>12209</td>
+            <td>Germany</td>
+            <td>  
+               <i style="color: #00BFFF;" class=" fa fa-eye"></i>  
+               <i style="color: #f2b400;" class="fa fa-pencil"></i>
+               <i style="color: red;" class="fa fa-trash"></i> 
+            </td>
+         </tr>
+         <tr>
+            <td>3</td>
+            <td>Fran Wilson </td>
+            <td>C/Araquit,67</td>
+            <td>Madrid</td>
+            <td>28023</td>
+            <td>Spain</td>
+            <td>  
+               <i style="color: #00BFFF;" class=" fa fa-eye"></i>  
+               <i style="color: #f2b400;" class="fa fa-pencil"></i>
+               <i style="color: red;" class="fa fa-trash"></i> 
+            </td>
+         </tr>
+         <tr>
+            <td>4</td>
+            <td>Dominique Perrier</td>
+            <td>25,rue Lauriston</td>
+            <td>Paris</td>
+            <td>75016</td>
+            <td>France</td>
+            <td>  
+               <i style="color: #00BFFF;" class=" fa fa-eye"></i>  
+               <i style="color: #f2b400;" class="fa fa-pencil"></i>
+               <i style="color: red;" class="fa fa-trash"></i> 
+            </td>
+         </tr>
+         <tr>
+            <td>5</td>
+            <td>Martin Blank </td>
+            <td>Via Monte Bianco 34</td>
+            <td>Turin</td>
+            <td>10100</td>
+            <td>Italy</td>
+            <td>  
+               <i style="color: #00BFFF;" class=" fa fa-eye"></i>  
+               <i style="color: #f2b400;" class="fa fa-pencil"></i>
+               <i style="color: red;" class="fa fa-trash"></i> 
+            </td>
+         </tr>
+      </table>
+      <br>
+      <br>
+      <div>
+         <p style="display: inline;">Showing <b>5</b> out of <b>25</b> entries</p>
+         <p style="display: inline; padding-left: 600px;">
+            <a href="">Previous</a>
+            <a href="">1</a>
+            <a href="">2</a>
+            <a class="circle" href="">3</a>
+            <a href="">4</a>
+            <a href="">5</a>
+            <a href="">Next</a>
+         </p>
+      </div>
+   </body>
+</html>
